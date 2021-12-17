@@ -1,4 +1,4 @@
-12/16/21: 
+12/16/21:
 	Added notes.txt
 	Added log.txt
 	Added plan.txt
@@ -6,3 +6,9 @@
 	Added BinSearch.java
 	Added LinSearch.java
 	Submitted google form (?)
+
+12/17/21:
+	Populated BinSearch.java
+	Populated LinSearch.java
+	Implemented SearchDriver.java
+	Updated README
