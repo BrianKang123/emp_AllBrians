@@ -1,1 +1,16 @@
-update once plan
+Helper method taking parameter <length> to determine length of example OrderedArrayList
+also takes parameter <index> determining the index of the target
+creates an OrderedArrayList of <length> long, filled with 0s and 2s, with one 1 at <index>
+Does so by checking the current index to <index>
+uses .add method of OAL
+
+TESTING: 
+initialize <start> variable to current milis
+run BinSearch, without printing
+SOP current milis - <start>
+reassign <start> to current milis
+run LinSearch, without printing
+SOP current milis - <start>
+optionally cast to int and divide by 1000 for seconds
+
+
