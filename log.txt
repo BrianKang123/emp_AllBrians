@@ -1,0 +1,8 @@
+12/16/21: 
+	Added notes.txt
+	Added log.txt
+	Added plan.txt
+	Added SearchDriver.java
+	Added BinSearch.java
+	Added LinSearch.java
+	Submitted google form (?)
