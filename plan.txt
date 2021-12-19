@@ -1,16 +1,21 @@
-Helper method taking parameter <length> to determine length of example OrderedArrayList
-also takes parameter <index> determining the index of the target
-creates an OrderedArrayList of <length> long, filled with 0s and 2s, with one 1 at <index>
-Does so by checking the current index to <index>
-uses .add method of OAL
+PLAN IN PLAY:
+    Generate an array of comparables of length 100,000,000 with each value being its index
+    Perform 1000 trials of bin and lin searches on this array, each time searching for a newly randomly generated index
+    Record the time it took to perform the search as well as the min/max times and the index of the element searched that resulted in that time
+    Print out the average of time of each type of search after the 1000 trials for that type of search are completed along with other stats collected
 
-TESTING: 
-initialize <start> variable to current milis
-run BinSearch, without printing
-SOP current milis - <start>
-reassign <start> to current milis
-run LinSearch, without printing
-SOP current milis - <start>
-optionally cast to int and divide by 1000 for seconds
+OG PLAN:
+    Helper method taking parameter <length> to determine length of example OrderedArrayList
+    also takes parameter <index> determining the index of the target
+    creates an OrderedArrayList of <length> long, filled with 0s and 2s, with one 1 at <index>
+    Does so by checking the current index to <index>
+    uses .add method of OAL
 
-
+    TESTING:
+    initialize <start> variable to current milis
+    run BinSearch, without printing
+    SOP current milis - <start>
+    reassign <start> to current milis
+    run LinSearch, without printing
+    SOP current milis - <start>
+    optionally cast to int and divide by 1000 for seconds
