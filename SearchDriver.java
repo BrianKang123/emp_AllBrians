@@ -5,7 +5,6 @@ public class SearchDriver {
         // update arrLength if provided through args
         if (args.length != 0) {
             arrLength = Integer.parseInt(args[0]);
-            System.out.println(arrLength);
         }
 
         // initialize and fill array of Comparables from 0 - arrLength - 1
