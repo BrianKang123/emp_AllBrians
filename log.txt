@@ -20,6 +20,8 @@ L03 -- Get Empirical
 	Updated README
 
 12/19/21
+    Update plan
+    Implement new plan into SearchDriver.java
 
 12/20/21
 	Added headings
