@@ -1,8 +1,12 @@
-update once notes are available 
-LinSearch.java: Uses a for loop to iterate through every element in the array. 
-Once it finds what it wants, it returns the index. 
+TNPG: All Brians (Brian Kang, Brian Wang, Ryan Lau)
+APCS
+L03 -- Get Empirical
+2021-12-21
 
-BinSearch.java: Assuming sorted, splits the array in half. 
-Navigates to the half where the target presides, then repeats. 
-Utilizes for loop. 
+LinSearch.java: Uses a for loop to iterate through every element in the array.
+Once it finds what it wants, it returns the index.
+
+BinSearch.java: Assuming sorted, splits the array in half.
+Navigates to the half where the target presides, then repeats.
+Utilizes for loop.
 (Unless we want recursion?)

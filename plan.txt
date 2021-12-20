@@ -1,3 +1,8 @@
+TNPG: All Brians (Brian Kang, Brian Wang, Ryan Lau)
+APCS
+L03 -- Get Empirical
+2021-12-21
+
 PLAN IN PLAY:
     Generate an array of comparables of length 100,000,000 with each value being its index
     Perform 1000 trials of bin and lin searches on this array, each time searching for a newly randomly generated index

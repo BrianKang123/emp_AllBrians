@@ -1,3 +1,8 @@
+// TNPG: All Brians (Brian Kang, Brian Wang, Ryan Lau)
+// APCS
+// L03 -- Get Empirical
+// 2021-12-21
+
 public class BinSearch
 {
 
