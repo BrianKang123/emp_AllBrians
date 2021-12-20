@@ -3,10 +3,12 @@ APCS
 L03 -- Get Empirical
 2021-12-21
 
-LinSearch.java: Uses a for loop to iterate through every element in the array.
-Once it finds what it wants, it returns the index.
+discos:
+    0. we utilized the LinSearch and BinSearch files from the library
+    1. (Ordered)ArrayLists are not the best data structure to use for this lab
+    2. 100 million ints seems to be the most an array can hold without changing the heap size
+    3. we added an optional program argument for the array length to find out the last disco without having to edit the source code everytime
 
-BinSearch.java: Assuming sorted, splits the array in half.
-Navigates to the half where the target presides, then repeats.
-Utilizes for loop.
-(Unless we want recursion?)
+qccs:
+    0. upon testing, we had a single run of binary search take 118ms but the other runs during the same execution took 0 to 1ms. why did this happen?
+    1. is there a sort faster than binary search?

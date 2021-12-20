@@ -3,7 +3,6 @@ APCS
 L03 -- Get Empirical
 2021-12-21
 
-
 12/16/21:
 	Added notes.txt
 	Added log.txt
@@ -25,3 +24,5 @@ L03 -- Get Empirical
 
 12/20/21
 	Added headings
+    Add discos/qccs into notes.txt
+    Add tests, results, and conclusions into README
