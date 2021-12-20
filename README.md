@@ -31,6 +31,6 @@ Average time per search by length:
           Lin - 11.104 ms
 100000000. Bin - 0.007 ms
            Lin - 114.598 ms
-(Multiple sets of 1000 tests were ran to ensure no outliers, but only one set of data was taken)
+*(Multiple sets of 1000 tests were ran to ensure no outliers, but only one set of data was taken)
 # Conclusions
 Binary search seems to be the faster of the two search algorithms for larger arrays, the turning point being somewhere in between 100 and 1000 elements (lack of precision makes an exact value hard to determine). However, for binary search to work, the array that we want to search in must already be sorted.
