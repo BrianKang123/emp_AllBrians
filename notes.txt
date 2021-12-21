@@ -12,3 +12,5 @@ discos:
 qccs:
     0. upon testing, we had a single run of binary search take 118ms but the other runs during the same execution took 0 to 1ms. why did this happen?
     1. is there a sort faster than binary search?
+    2. wouldn't the actual time it takes for the search to run also depend on your computer?
+    3. how can it be that for some lin searches, it takes 0ms to find the target whose index is greater than two hundred thousand but also take 1ms to find the target whose index is (significantly )less than a hundred thousand
