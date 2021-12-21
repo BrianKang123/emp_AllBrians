@@ -22,4 +22,6 @@ Brian Wang's journey journal:
     2. NYA: tested on 500k, 1M, 2M, with 1000 targets with 70 times on each target. Used an iteration tracker to track every run
 
 Brian Kang's journey journal:
-    0. JWJ: Had two versions of linear and binary search
+    0. JWJ: Had two versions of linear and binary search that allowed them to compare and contrast the different possible outcomes bases on the inputs.
+    1. CNN: Claimed that their Binary search would run faster most of the time and they experimented with a different device. They used double to be more specific and hold more value. They claimed to search for a random target to add variety.
+    2. BigApples: Claimed that Binary search was the fastest for everything they tried. They reaffirmed the belief that long is used for time measurements.     
