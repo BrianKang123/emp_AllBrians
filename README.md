@@ -27,7 +27,6 @@ Roster: Brian Kang, Brian Wang, Ryan Lau
 | 100,000,000 | 0.018             | 0                 | 68,825,515            | 2                 | 89,677,507            |
 
 ### Linear Search
-
 | Array Size  | Average Time (ms) | Minimum Time (ms) | Index of Minimum Time | Maximum Time (ms) | Index of Maximum Time |
 | ----------  | ----------------- | ----------------- | --------------------- | ----------------- | --------------------- |
 | 1           | 0.001             | 0                 | 0                     | 1                 | 0                     |
@@ -41,18 +40,17 @@ Roster: Brian Kang, Brian Wang, Ryan Lau
 | 100,000,000 | 48.767            | 0                 | 268,711               | 517               | 95,759,983            |
 
 ### Binary Search VS Linear Search
-
 | Array Size  | Average Binary Search (ms) | Average Linear Search Time (ms) |
 | ----------  | -------------------------- | ------------------------------- |
-| 1           | 0.002                      | 0.001                           |
-| 10          | 0.003                      | 0.001                           |
-| 100         | 0.003                      | 0.002                           |
-| 1,000       | 0.004                      | 0.007                           |
-| 10,000      | 0.004                      | 0.016                           |
-| 100,000     | 0.005                      | 0.054                           |
-| 1,000,000   | 0.004                      | 0.328                           |
-| 10,000,000  | 0.005                      | 4.667                           |
-| 100,000,000 | 0.018                      | 48.767                          |
+| 1           | 0.002                      | **0.001**                       |
+| 10          | 0.003                      | **0.001**                       |
+| 100         | 0.003                      | **0.002**                       |
+| 1,000       | **0.004**                  | 0.007                           |
+| 10,000      | **0.004**                  | 0.016                           |
+| 100,000     | **0.005**                  | 0.054                           |
+| 1,000,000   | **0.004**                  | 0.328                           |
+| 10,000,000  | **0.005**                  | 4.667                           |
+| 100,000,000 | **0.018**                  | 48.767                          |
 
 # Conclusions
 Binary search seems to be the faster of the two search algorithms for larger arrays, the turning point being somewhere in between 100 and 1000 elements (lack of precision makes an exact value hard to determine). However, for binary search to work, the array that we want to search in must already be sorted.
