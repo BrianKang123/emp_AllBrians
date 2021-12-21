@@ -14,3 +14,12 @@ qccs:
     1. is there a sort faster than binary search?
     2. wouldn't the actual time it takes for the search to run also depend on your computer?
     3. how can it be that for some lin searches, it takes 0ms to find the target whose index is greater than two hundred thousand but also take 1ms to find the target whose index is (significantly )less than a hundred thousand
+
+GALLERY TOUR:
+Brian Wang's journey journal:
+    0. GammaRay: only looked for worst case and total time, strange results since they only tested bin and lin searches an uneven number of times but only showed the total runtime. Ran many trials, did not test small arrays
+    1. PBN: 5 arrays, 2 stored times, 3 stored datasets (200k, 400k, 600k), performed trials for every element in the array
+    2. NYA: tested on 500k, 1M, 2M, with 1000 targets with 70 times on each target. Used an iteration tracker to track every run
+
+Brian Kang's journey journal:
+    0. JWJ: Had two versions of linear and binary search

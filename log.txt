@@ -26,3 +26,6 @@ L03 -- Get Empirical
 	Added headings
     Add discos/qccs into notes.txt
     Add tests, results, and conclusions into README
+
+12/21/21
+    Add GALLERY TOUR to notes.txt
